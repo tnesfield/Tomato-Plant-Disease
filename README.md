@@ -33,18 +33,36 @@ Accurately classify a given image from a dataset into different disease categori
 </p>
 
 ## Dataset
-My dataset was a little imbalanced.
+My dataset was a little imbalanced. Total images = 12,814
 
+<a href="https://github.com/spMohanty/PlantVillage-Dataset/tree/master/raw/color">
 <p align="center">
 <img src="graphics/pie_chart.png" width="800" height="450">
-</p>
-
+</a>
 
 ## Model Framework
-
 I used a keras Sequential model with 9 layers
-<p align="center">
-<img src="graphics/model.png" width="300" height="400">
+
+<p align="left">
+<img src="graphics/model.png" width="200" height="400">
 </p>
 
-## 
+## Results
+
+* My test set ran with 96% accuracy
+* My validation set ran with 93% accuracy
+* My holdout set ran with 92% accuracy
+
+<p align="left">
+<img src="graphics/training-test-accuracy.png" width="350" height="350">
+</p>
+<p align="left">
+<img src="graphics/training-results.png" width="400" height="100">
+</p>
+                                                                
+### Confusion Matrix
+
+<p align="center">
+<img src="graphics/confusion-matrix.png" width="850" height="700">
+</p>
+
