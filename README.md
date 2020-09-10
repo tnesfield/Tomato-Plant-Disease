@@ -49,7 +49,7 @@ I used a keras Sequential model with 9 layers
 
 ## Results
 
-* My test set ran with **96% accuracy**
+* My train set ran with **96% accuracy**
 * My validation set ran with **93% accuracy**
 * My holdout set ran with **92% accuracy**
 
